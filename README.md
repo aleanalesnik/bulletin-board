@@ -2,7 +2,7 @@
 
 This project is a result of applying SQL in a Node.js web application. My Bulletin Board Application allows users to post their favorite quotes to a webpage and peruse what others have contributed as well. Moreover, it updates and stores the information received to my local database in PostgreSQL, my relational database system of choice. 
 
-![SneakPeek](https://github.com/aleanalesnik/bulletin-board/public/images/screenshot2.png?raw=true)
+![banner](https://github.com/aleanalesnik/bulletin-board/blob/master/public/images/screenshot2.png?raw=true)
 
 > Visualization of the Quotes page 
 
