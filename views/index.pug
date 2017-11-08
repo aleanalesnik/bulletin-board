@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	.marble
+		img(src="/images/marble.jpg" alt="marble")
+		#marbletext WELCOME
+	.greybox
+		#greyboxtext Share your favorite quote below.
+	form(action='/success', method='POST', autocomplete='off')
+		h3 Author:
+		br
+		input#typetitle(rows='2', name='title', placeholder='Credit')
+		br
+		h3 Quote:
+		textarea#typebody(rows='5', name='body', placeholder='No quotation marks necessary')
+		br
+		br
+		input(type='submit', value='Submit')
+		br
+		br
+		br
+	.greybox
+		#greyboxtext Write as many as you'd like.
+	script(src='https://code.jquery.com/jquery-3.2.1.js')
+	script.

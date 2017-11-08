@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	h1 Quotes
+	h3 { Thank you for your contribution }
+	each message in messageResults
+		.box
+			#title
+				| #{message.title}
+			#quotebody
+				p #{message.body}

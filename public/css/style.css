@@ -1,0 +1,246 @@
+/* BASIC STYLING */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    background-color: white;
+    text-align: center;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: #7B7A7A;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+/* NAVIGATION BAR */
+
+.topnav {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.topnav a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #D3D3D3;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* INDEX PAGE */
+
+
+/* marble image with text overlay */
+.marble {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.marble,
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+}
+
+#marbletext {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    letter-spacing: 9px;
+}
+
+
+/* grey section with text overlay */
+.greybox {
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: #D3D3D3;
+    width: 100%;
+    height: 100px;
+}
+
+#greyboxtext {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+
+/* form */
+input {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid #000000;
+    padding: 10px;
+    font-size: 15px;
+}
+
+textarea {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid #000000;
+    padding: 10px;
+    font-size: 15px;
+}
+
+button {
+    font-family: 'Playfair Display', serif;
+    border: 1px solid #000000;
+    font-size: 15px;
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+#typetitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 50%;
+}
+
+#typebody {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 50%;
+}
+
+
+
+
+
+
+
+/* SUCCESS PAGE  */
+
+
+/* text overlay on marble image */
+#success {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+#postlink {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/*  ABOUT PAGE  */
+
+.marble2 {
+    background-image: url("/images/marble.jpg");
+    width: 100%;
+    height: 200px;
+    z-index: -1;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+/*  MESSAGES PAGE  */
+
+.box {
+    background-image: url("/images/marble.jpg");
+    background-color: grey;     
+    background-blend-mode: screen;  /* blends marble img with grey to lighten it */
+    z-index: -1;
+    border: 2px solid #D3D3D3;
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    z-index: 1;
+}
+
+#title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
